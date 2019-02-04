@@ -1,11 +1,9 @@
-.dropdown img {
+.dropbtn {
     position: fixed;
     z-index: 10;
     top: 20px;
     right: 8vw;
     width: 12%;
-}
-.dropbtn {
     cursor: pointer;
 }
 .dropdown {
@@ -21,7 +19,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    padding-top: 20%;
+    padding-top: 5%;
 }
 .dropdown-content a {
     text-align: center;
@@ -32,6 +30,11 @@
     padding: 40px 26px;
     text-decoration: none;
     margin: 0 8vw;
+}
+.dropdown-content img {
+    width: 12%;
+    padding-bottom: 30px;
+    margin-left: 10%;
 }
 .show {
     display: block;
