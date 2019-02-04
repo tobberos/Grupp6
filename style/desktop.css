@@ -1,0 +1,16 @@
+@media (min-width: 600px) {
+    .dropdown {
+        display: none;
+    }
+    #coffee-cup {
+        position: absolute;
+        top: 0;
+        z-index: -1;
+    }
+    .hem img {
+        display: none;
+    }
+    .hem h1 {
+        color: #FF6C10;
+    }
+}

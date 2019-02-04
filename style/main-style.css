@@ -2,7 +2,7 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 body {
-    background-color: #2B2B2A;
+    /* background-color: #2B2B2A; */
     margin: 0;
 }
 h1, h2 {
@@ -13,9 +13,6 @@ h1, h2 {
 
 h3{
     color: #A85B2B;
-}
-body{
-    background-color: #2B2B2A;
 }
 
   
