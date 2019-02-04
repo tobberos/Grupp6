@@ -1,23 +1,27 @@
 .tjanster{
 margin:0;
 text-align: center;
-background-color:#2B2B2A;
+min-height: 100vh;
+padding-top: 10%;
 }
 .tjanster h3{
 color:white;
 }
-.tjanster h2, .tjanster h3{
-padding-top: 5px;   
-}
+
 .tjanster h2{
 font-size:7vw;
 }
 .tjanster h3{
-font-size:1.5em;
+font-size:5vw;
+margin: 1vh;
 }
-.line{
-display:inline-block;
-width:22%;
-border-bottom:1px solid #FF6C10;
-margin-top:40px;
+
+.tjanster-img{
+    width: 25vw;
+    padding: 0;
+    margin: 0;
+}
+
+.tjanster-box{
+    margin: 10% 0 7% 0;
 }

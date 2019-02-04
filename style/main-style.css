@@ -10,9 +10,25 @@ h1, h2 {
     font-weight: 400;
 }
 
+
+h3{
+    color: #A85B2B;
+}
+body{
+    background-color: #2B2B2A;
+}
+
+  
+
+
 h2{
     font-size: 7vw;
 }
 
+.line{
+    width:22%;
+    border-bottom:1px solid #FF6C10;
+    margin: 40px auto 0;
+    }
 
 
