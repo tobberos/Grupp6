@@ -1,8 +1,6 @@
 @import url("main-style.css");
 
 
-
-
 .kontakt{
     text-align: center;
     height: 100vh;
@@ -15,11 +13,15 @@
 }
 
 .kontaktImg{
-    width: 2em; 
+    width: 5vh; 
     margin: 1em;
 }
 
 .kontakt h2, h3{
     margin: 0.5em 0 0;
     padding: 0;
+}
+
+.kontakt h3{
+    color: #a85b2b 
 }
