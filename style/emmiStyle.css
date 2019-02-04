@@ -1,0 +1,25 @@
+@import url("main-style.css");
+
+
+
+
+.kontakt{
+    text-align: center;
+    height: 100vh;
+    padding-top: 2em;
+}
+
+.kontakt-box{
+    margin: 15% auto 15%;
+
+}
+
+.kontaktImg{
+    width: 2em; 
+    margin: 1em;
+}
+
+.kontakt h2, h3{
+    margin: 0.5em 0 0;
+    padding: 0;
+}

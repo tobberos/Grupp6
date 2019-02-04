@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fantastic Four</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
 </head>
@@ -12,29 +13,58 @@
 <body>
 
     <header>
+
       
         <nav>
+=======
+        <div class="logo"><img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="500px" hidden></div>
 
+        <div class="dropdown">
+            <img src="images/hamburger-logo.svg" alt="Hamburger-logo" onclick="myFunction()" class="dropbtn">
+            <div id="myDropdown" class="dropdown-content">
+                <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="100px">
+                <a href="#home">Hem</a>
+                <a href="#tjanster">Våra Tjänster</a>
+                <a href="#projekt">Projekt</a>
+                <a href="#om-oss">Om Oss</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+        </div>
+
+
+        <nav>
+           
         </nav>
+
     </header>
     
     <main>
         <!-- 1 -->
-        <div class="hem">
+        <div class="hem" id="home">
+            <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo">
             <h1>Fantastic Four</h1>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, similique!</h3>
+            <div class="border-bottom"></div>
         </div>
         <!-- 1 -->
-
+        <img src="images/coffeecup.jpg" alt="Cup of coffee" width="100%";>
         <!-- 2 -->
-        <div class="tjanster">
+        <div class="tjanster" id="tjanster">
             <h2>Våra tjänster</h2>
+            <img src="images/seo.svg" alt="SEO" width="100px">
+            <h3>Sökoptimering</h3>
+            <img src="images/frontend.svg" alt="Frontend" width="100px">
+            <h3>Front End</h3>
+            <img src="images/responsive2.svg" alt="Responsiv Web" width="100px">
+            <h3>Responsive Web</h3>
+            <div class="line"></div>
         </div>
         <!-- 2 -->
 
 <div class="orange"></div>
 
         <!-- 3 -->
-        <div class="projekt">
+        <div class="projekt" id="projekt">
             <h2>Våra senaste projekt</h2>
             
             <div class="vara-projekt-center ">
@@ -67,6 +97,7 @@
 <div class="orange"></div>
 
         <!-- 4 -->
+
         <div class="om-oss">
             <h2>Vilka är vi ?</h2>
 
@@ -144,14 +175,40 @@
                 <div class="text text-left"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minima quam odio consequuntur natus velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo nemo in laboriosam pariatur saepe.</p></div>
             </div>
 
+=======
+        <div class="om-oss" id="om-oss">
+            <h2>Om oss</h2>
         </div>
         <!-- 4 -->
 
         <div class="orange"></div>
         
         <!-- 5 -->
-        <div class="kontakt">
+        <div class="kontakt" id="kontakt">
+
+            <div class="kontakt-box">
             <h2>Kontakt</h2>
+            <h3>info@fantastic4.com</h3>
+            <h3>+46 (0) 777 77 7777</h3>
+            </div>
+
+            <div class="kontakt-box">
+            <h2>Adress</h2>
+            <h3>Internetvägen 1</h3>
+            <h3>112 21 Stockholm</h3>
+            </div> 
+
+            <div class="kontakt-box">
+            <h2>Följ Oss</h2>
+            <img src="images/instagram-logo.png" alt="instagram" class="kontaktImg">
+            <img src="images/linkedin-logo.png" alt="linkedin" class="kontaktImg">
+            <img src="images/facebook-logo.png" alt="facebook" class="kontaktImg">
+            </div>
+
+            <div class="kontakt-box">
+            <h2>Karriär</h2>
+            <h3>karriar@fantastic4.com</h3>
+            </div>
         </div>
         <!-- 5 -->
     </main>
@@ -159,5 +216,7 @@
     <footer>
 
     </footer>
+    <script src="javascript.js">
+    </script>
 </body>
 </html>
