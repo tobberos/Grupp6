@@ -1,0 +1,70 @@
+h2{ /*OM OSS*/
+    text-align: center;
+    font-size: 10vw;
+}
+.center { /*Profilbilden på oss*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+.content h4{ /*Våra namn*/
+    display: inline;
+    margin-left: 18%;
+    font-size: 6vw;
+
+}
+
+.symboler a img {
+    width: 5%;
+    margin-left: 1%;
+}
+
+.symboler{
+    display: inline;
+    margin-left: 3%;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 5vw;
+}
+
+
+.Nicklas h4{
+    color: #FF6C10;
+}
+
+.Nicklas p{
+    color: #ffff;
+}
+
+.Tobias h4{
+    color: #FF6C10;
+}
+
+.Tobias p{
+    color: #ffff;
+}
+
+.Emmi p{
+    color: #FF6C10;
+}
+
+.Emmi h4{
+    color: #ffff;
+}
+
+.Emma p{
+    color: #FF6C10;
+}
+
+.Emma h4{
+    color: #ffff;
+}
