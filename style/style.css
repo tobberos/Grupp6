@@ -1,11 +1,13 @@
 /* Import */
 
 @import url("main-style.css");
+@import url("Om-oss.css");
+@import url("våra-projekt.css");
+@import url("Om-oss-webb.css");
+=======
 
 @import url("home-style.css");
 @import url("header-style.css");
 
 @import url("tjanster.css");
 @import url("emmiStyle.css")
-
-

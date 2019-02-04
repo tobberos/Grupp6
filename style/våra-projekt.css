@@ -1,0 +1,86 @@
+h2{ /*Våra senaste projekt*/
+    text-align: center;
+    font-size: 10vw;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.vara-projekt-center .wrapper{
+    display: inline;
+    margin-left: 8%;
+    margin-right: auto;
+}
+
+.vara-projekt-center p{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 5vw;
+    color: white;
+}
+.mobil{
+    width: 16%;
+    border-radius: 18%;
+    margin-bottom: 5%;
+
+    transition: .8s ease;
+}
+
+.webben{
+    width: 65%;
+    border-radius: 3%;
+    border-style: solid 1px ;
+    margin-bottom: 5%;
+  
+    transition: .8s ease;
+}
+
+.wrapper{
+    position: relative;
+}
+
+.overlay-content{
+    text-transform: uppercase;
+    font-size: 6vw;
+    color: #ffffff;
+    white-space: nowrap;
+}
+.overlay-content a{
+    font-size: 0.5em ;
+    display: block;
+    background-color: #ff771d;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.overlay{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+.overlay-skeleton{
+    left: 40%;
+    padding-bottom: 50%;
+}
+.overlay-meta{
+    padding-bottom: 45%;
+    left: 40%;
+}
+.wrapper:hover img{
+    opacity: .3;
+}
+.wrapper:hover .overlay{
+    opacity: 1;
+}
+
+.orange{ /*Orange linje mellan varje rubrik*/
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 0.2%;
+    background-color: #ff771d;
+}
