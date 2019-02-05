@@ -1,0 +1,17 @@
+@media(min-width:600px){
+
+.tjanster h2{
+font-size:2vw;
+}
+.tjanster h3{
+font-size:2vw;
+margin: 1vh;
+}
+        
+.tjanster-img{
+width: 2vw;
+padding: 0;
+margin: 0;
+}
+
+}
