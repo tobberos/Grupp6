@@ -77,6 +77,7 @@ footer{
     background-position: center;
     position: relative;
     text-align: center; 
+    border-bottom: solid 1px #a85b2b;
 }
 
 .kontakt-box{
