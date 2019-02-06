@@ -1,17 +1,39 @@
 @media only screen and (min-width: 600px){
-  #projekt{ /*Bakgrunds bild*/
+  /*#projekt{ /*Bakgrunds bild*/ /*
    
-    background-image:url(../images/student.jpg);
+    background-image:url(../images/stu.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+  } 
+  */
 
+.projekt{
+z-index: 1;
+position: relative;
+}
+.bg{
+ 
+  z-index: -1;
+  background-image:url(../images/student.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  position: absolute;
+  opacity: .4;
+}
   
-  }  
 .projekt h2{
   margin: 0;
-  margin-bottom: 6%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   font-size: 3em;
 }
 .placering-img-projekt{
@@ -58,6 +80,7 @@
 .overlay-skeleton{
   left: 73%;
   padding-top: 5%;
+
 }
 .overlay-meta{
   left: 23%;
@@ -65,7 +88,7 @@
   padding-top: 3%;
 }
 .wrapper:hover img{
-  opacity: 0.6;
+  opacity: 0.3;
 }
 .wrapper:hover .overlay{
   opacity: 1;
