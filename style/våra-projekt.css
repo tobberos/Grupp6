@@ -78,3 +78,7 @@ h2{ /*Våra senaste projekt*/
     padding-bottom: 0.2%;
     background-color: #ff771d;
 }
+
+.hide-mobile{
+    display: none;
+}
