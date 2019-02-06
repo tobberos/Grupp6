@@ -1,6 +1,6 @@
 @media only screen and (min-width: 600px){
   #projekt{ /*Bakgrunds bild*/
-
+   
     background-image:url(../images/student.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -10,7 +10,9 @@
   
   }  
 .projekt h2{
-  padding-top: -20%;
+  margin: 0;
+  margin-bottom: 6%;
+  font-size: 3em;
 }
 .placering-img-projekt{
   display: flex;
@@ -28,6 +30,7 @@
   transition: .8s ease;
   border: solid black 1px;
 
+
 }
 .mobil{  /*Bild på mobil*/
   margin-left: -10%;
@@ -44,7 +47,6 @@
 .hide-mobile{
   display: block;
 }
-
 
 .overlay-content{
   font-size: 5vw;
