@@ -3,15 +3,28 @@
         display: none;
     }
     #coffee-cup {
+        display: none;
         position: absolute;
         top: 0;
         z-index: -1;
+    }
+     /* Set the background image to full height and width */
+    .hem {
+        background-image: url(../images/coffeecup.jpg);
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
     }
     .hem img {
         display: none;
     }
     .hem h1 {
         color: #FF6C10;
+        padding-top: 20%;
+        font-size: 5em;
+        margin: 0;
     }
 }
 
