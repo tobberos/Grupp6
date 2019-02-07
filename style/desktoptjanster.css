@@ -2,15 +2,15 @@
 .tjanster{
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
-min-height: 0px;
+height: 100vh;
+padding-top:0;
 }
 .tjanster h2{
 font-size: 3em;
 grid-column-start: 1;
 grid-column-end: 4;
 padding:0;
-margin-top:100px;
-margin-bottom:100px;
+margin-top:130px;
 }
 .tjanster h3{
 font-size:2vw;
@@ -23,12 +23,14 @@ width:150px;
 .tjanster-box{
 margin:0 auto;
 width:80%;
+
 }
 .line{
 display:none;
 }
 .tjanster p{
 color:white;
+
 }
 
 }
