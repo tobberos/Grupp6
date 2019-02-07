@@ -1,0 +1,31 @@
+@media (min-width: 600px){
+    .dropdown {
+        display: none;
+    }
+    .desktop-nav, .navigation{
+        display: flex;
+    }
+    .desktop-nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: black;
+        height: 100px;
+        justify-content: space-between;
+        background: rgba(224, 223, 223, 0.2);
+    }
+    .nav-img img {
+        height: 100px;
+        margin-left: 20px;
+    }
+    .navigation > div > a{
+        color: #FF6C10;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 30px;
+        font-size: 1.2rem;
+    }
+    .navigation {
+        margin-top: 30px;
+    }
+}
