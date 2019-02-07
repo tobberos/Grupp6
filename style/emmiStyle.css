@@ -56,25 +56,22 @@ h3{
     margin: 0 auto;
     padding-top: 30px;
 }
-
-footer{
-    height: 30vh;
-}
 .grid-container-kontakt{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-column-gap: 5px;
     padding: 0;
     margin: 0;
-    height: 30vh;
-
+    height: 12vh;
 }
-
 .kontakt-bild{
     display: block;
-    height: 73vh;
+    height: 88vh;
     background-image: url('../images/kontakt-img.jpg');
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     text-align: center; 
     border-bottom: solid 1px #a85b2b;
