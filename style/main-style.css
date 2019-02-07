@@ -1,5 +1,6 @@
 html {
     font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
 }
 body {
     background-color: #2B2B2A;
@@ -9,19 +10,12 @@ h1, h2 {
     color: #FF6C10;
     font-weight: 400;
 }
-
-
-h3{
-    color: #A85B2B;
-}
-
-  
-
-
 h2{
     font-size: 7vw;
 }
-
+h3{
+    color: #A85B2B;
+}
 .line{
     width:22%;
     border-bottom:1px solid #FF6C10;
