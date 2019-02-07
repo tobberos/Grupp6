@@ -68,16 +68,19 @@ position: relative;
 .overlay-content a{
   font-size: 0.5em ;
 }
+
+
 .overlay-skeleton{
-  left: 73%;
-  padding-top: 5%;
+  left: 45%;
+  bottom: 150%;
 
 }
 .overlay-meta{
-  left: 23%;
-  right: 43%;
-  padding-top: 3%;
+bottom: -150%;
 }
+
+
+
 .wrapper:hover img{
   opacity: 0.3;
 }
