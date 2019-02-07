@@ -12,10 +12,15 @@
     .hem {
         background-image: url(../images/coffeecup.jpg);
         height: 100vh;
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative; */
+
+        background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
     }
     .hem img {
         display: none;
