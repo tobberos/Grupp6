@@ -2,7 +2,7 @@
     .tjanster {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        height: 100vh;
+        height: 110vh;
         padding-top: 0;
     }
     .tjanster h2 {
@@ -10,7 +10,8 @@
         grid-column-start: 1;
         grid-column-end: 4;
         padding: 0;
-        margin-top: 130px;
+        margin-top: 100px;
+        margin-bottom: 10%;
     }
     .tjanster h3 {
         font-size: 2vw;
