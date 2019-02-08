@@ -7,6 +7,8 @@
     <title>Fantastic Four</title>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
 </head>
 
@@ -128,7 +130,7 @@
         <div class="om-oss" id="om-oss">
             <h2>Om Oss</h2>
 
-            <div class="namn1 left">
+            <div class="namn1 left" data-aos="fade-right">
                 <img src="profilbilder/nicklas.jpg" alt="Nicklas Barklund" class="center">
  
                 <div class="content">
@@ -147,7 +149,7 @@
 
             </div>
 
-            <div class="namn2 right">
+            <div class="namn2 right" data-aos="fade-left">
                 <img src="profilbilder/emmi.jpg" alt="Emmi Torstensson" class="center ">
              
                 <div class="content">
@@ -165,7 +167,7 @@
                 <div class="text text-left"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minima quam odio consequuntur natus velit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti numquam repellendus sit iste eligendi!</p></div>
             </div>
 
-            <div class="namn1 left">
+            <div class="namn1 left" data-aos="fade-right">
                 <img src="profilbilder/tobias.jpg" alt="Tobias Rosenlind" class="center">
               
 
@@ -184,7 +186,7 @@
                 <div class="text text-right"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minima quam odio consequuntur natus velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nam nihil tenetur repellendus eligendi tempora!</p></div>
             </div>
 
-            <div class="namn2 right">
+            <div class="namn2 right" data-aos="fade-left">
                 <img src="profilbilder/emma.jpg" alt="Emma Hägg" class="center">
              
                 <div class="content">
@@ -253,10 +255,11 @@
         </div>
          
     </footer>
-
-
     <script src="javascript.js">
-
-    </script>
+        
+</script>
+<script type="text/javascript">
+AOS.init({duration:1200});
+</script>
 </body>
 </html>
