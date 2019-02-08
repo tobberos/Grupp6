@@ -98,6 +98,7 @@ bottom: -150%;
   .projekt{
     z-index: 1;
     position: relative;
+
   }
   .bg{
     z-index: -1;
@@ -106,7 +107,7 @@ bottom: -150%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     top:0;
     bottom:0;
     left:0;
@@ -151,12 +152,14 @@ bottom: -150%;
   }
   .overlay-content{
     font-size: 5vw;
+    text-align: center;
   }
   .overlay-content a{
     font-size: 0.5em ;
   }
   .overlay-skeleton{
     left: 73%;
+    right: -3%;
     padding-top: 5%;
   }
   .overlay-meta{
