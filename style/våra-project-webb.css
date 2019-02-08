@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     top:0;
     bottom:0;
     left:0;
@@ -63,6 +63,7 @@
   
   .overlay-content{
     font-size: 5vw;
+    text-align: center;
   
   }
   .overlay-content a{
@@ -72,7 +73,8 @@
   
   .overlay-skeleton{
     left: 45%;
-    bottom: 150%;
+    right: -20%;
+    bottom: -150%;
   
   }
   .overlay-meta{
