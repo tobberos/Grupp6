@@ -1,45 +1,35 @@
 @media only screen and (min-width: 600px){
-    .om-oss h2{
+    .om-oss h2 {
         margin: 0;
         font-size: 3em;
     }
-    .om-oss h4{
+    .om-oss h4 {
         font-size: 2.0em;
         padding-right: 0px;
     }
-    .om-oss p{
+    .om-oss p {
         font-size: 0.3em;
     }
-    .om-oss .symboler img{
+    .om-oss .symboler img {
        width: 35px;
     }
-    
-
-.om-oss img{ /* Profilbilder */
-    width: 25%;
-    padding-left:-3px;
+    .om-oss img { /* Profilbilder */
+        width: 25%;
+        padding-left:-3px;
+    }
+    .namn1 .center { /* Killarnas bilder*/
+        margin-left: 8%;
+        margin-bottom: -20%;
+    }
+    .namn2 .center { /* Tjejernas bilder*/
+        margin-right: 8%;
+        margin-bottom: -20%;
+    }
+    .namn1 h4, .namn1 p { /* Killarnas text till bild*/
+        margin-left: 50%;
+    }
+    .namn2 p { /* Tjejernas text till bild*/
+        margin-bottom: 5%;
+        margin-right: 50%;
+    }
 }
-
-.namn1 .center{ /* Killarnas bilder*/
-    margin-left: 8%;
-    margin-bottom: -20%;
-
-}
-.namn2 .center{ /* Tjejernas bilder*/
-    margin-right: 8%;
-    margin-bottom: -20%;
-}
-
-
-.namn1 h4, .namn1 p{ /* Killarnas text till bild*/
- margin-left: 50%;
-}
-
-
-.namn2 p{ /* Tjejernas text till bild*/
-    margin-bottom: 5%;
-    margin-right: 50%;
-}
-
-
-  }
