@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fantastic Four</title>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon"> <!-- Favicon -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"><!-- Google Font -->
+    <link rel="stylesheet" href="style/style.css">                                  <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">         <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>                 <!-- AOS -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">                 <!-- Favicon -->
 </head>
 
 <body>
-
     <header>
-
-      
         <nav>
-        <div class="logo"><img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="500px" hidden></div>
-
-        <div class="dropdown">
-            <img src="images/hamburger-logo.svg" alt="Hamburger-logo" onclick="myFunction()" class="dropbtn">
-            <div id="myDropdown" class="dropdown-content">
-                <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="100px">
-                <a href="#home">Hem</a>
-                <a href="#tjanster">Våra Tjänster</a>
-                <a href="#projekt">Projekt</a>
-                <a href="#om-oss">Om Oss</a>
-                <a href="#kontakt">Kontakt</a>
+            <div class="logo"><img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="500px" hidden></div>
+            <!-- Mobile navigation -->
+            <div class="dropdown">
+                <img src="images/hamburger-logo.svg" alt="Hamburger-logo" onclick="myFunction()" class="dropbtn">
+                <div id="myDropdown" class="dropdown-content">
+                    <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo" width="100px">
+                    <a href="#home">Hem</a>
+                    <a href="#tjanster">Våra Tjänster</a>
+                    <a href="#projekt">Projekt</a>
+                    <a href="#om-oss">Om Oss</a>
+                    <a href="#kontakt">Kontakt</a>
+                </div>
             </div>
-        </div>
-            <div class="desktop-nav" hidden>
+            <!-- Desktop navigation -->
+            <div class="desktop-nav" id="desktop-nav" hidden>
                 <div class="nav-img"><a href="#home"><img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo"></a></div>
                 <div class="navigation">
                     <div><a href="#home">Hem</a></div>
@@ -40,7 +40,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
     
     <main>
@@ -48,14 +47,15 @@
         <div class="hem" id="home">
             <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo">
             <h1>Fantastic Four</h1>
-            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, similique!</h3>
+            <h3>Den fantastiska Front End-byrån</h3>
             <div class="border-bottom"></div>
         </div>
         <!-- 1 -->
+
         <img src="images/coffeecup.jpg" alt="Cup of coffee" width="100%" id="coffee-cup">
+        
         <!-- 2 -->
         <div class="tjanster" id="tjanster">
-
 
             <h2>Våra tjänster</h2>
 
@@ -82,55 +82,49 @@
                     pitchfork pop-up meggings craft beer swag 
                    ethical before they sold out wolf.</p>
             </div>
-                <div class="line"></div>
+            <div class="line"></div>
         </div>
         <!-- 2 -->
-
 
         <!-- 3 -->
         <div class="projekt" id="projekt">
             <div class="bg"></div>
-            <h2>Våra senaste projekt</h2>
-            
-        <div class="placering-img-projekt">
-
-            <div class="vara-projekt-center ">
-
-            <div class="wrapper">
-             <img src="images/Metataggar.JPG" alt="metataggar" class="webben">    <img src="images/MetataggarPhone.JPG" alt="MetataggarPhone" class="mobil">
-              <div class=" overlay overlay-meta">
-                  <div class="overlay-content"> Metataggar <a href="https://emmahagg.github.io/Metataggar/" target="_blank"> Gå till hemsidan</a> </div>
-                       <p class="hide-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius in facilis dolores ex ullam optio exercitationem suscipit libero delectus dolorem, alias doloribus animi consectetur. Optio mollitia dolores tempore non.</p>
-              </div>
-              <p class="hide-webb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius in facilis dolores ex ullam optio exercitationem suscipit libero delectus dolorem, alias doloribus animi consectetur. Optio mollitia dolores tempore non.</p>
-            </div>
-            </div> <!--vara-projekt-center slut-->
-
-            <div class="vara-projekt-center ">
-
-            <div class="wrapper">
-               <img src="images/skeleton.JPG" alt="skeleton" class="webben">    <img src="images/skeletonPhone.JPG" alt="skeletonPhone" class="mobil">
-                <div class=" overlay overlay-skeleton">
-                    <div class="overlay-content"> skeleton <a href="https://bikelund.github.io/Skeleton/#home" target="_blank"> Gå till hemsidan</a> </div>
-                         <p class="hide-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias atque placeat consequuntur debitis voluptate quia?</p> 
+            <h2>Våra senaste projekt</h2>  
+            <div class="placering-img-projekt">
+                <div class="vara-projekt-center ">
+                    <div class="wrapper">
+                        <img src="images/Metataggar.JPG" alt="metataggar" class="webben">    <img src="images/MetataggarPhone.JPG" alt="MetataggarPhone" class="mobil">
+                        <div class=" overlay overlay-meta">
+                        <div class="overlay-content"> Metataggar <a href="https://emmahagg.github.io/Metataggar/" target="_blank"> Gå till hemsidan</a> </div>
+                        <p class="hide-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius in facilis dolores ex ullam optio exercitationem suscipit libero delectus dolorem, alias doloribus animi consectetur. Optio mollitia dolores tempore non.</p>
+                    </div>
+                    <p class="hide-webb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius in facilis dolores ex ullam optio exercitationem suscipit libero delectus dolorem, alias doloribus animi consectetur. Optio mollitia dolores tempore non.</p>
                 </div>
-                <p class="hide-webb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius in facilis dolores ex ullam optio exercitationem suscipit libero delectus dolorem, alias doloribus animi consectetur. Optio mollitia dolores tempore non.</p>
-            </div>
             </div> <!--vara-projekt-center slut-->
 
-        </div> <!--placering-img-projekt slut-->
+            <div class="vara-projekt-center ">
+                <div class="wrapper">
+                <img src="images/skeleton.JPG" alt="skeleton" class="webben">    <img src="images/skeletonPhone.JPG" alt="skeletonPhone" class="mobil">
+                    <div class=" overlay overlay-skeleton">
+                        <div class="overlay-content"> skeleton <a href="https://bikelund.github.io/Skeleton/#home" target="_blank"> Gå till hemsidan</a></div>
+                         <p class="hide-mobile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias atque placeat consequuntur debitis voluptate quia?</p> 
+                    </div>
+                    <p class="hide-webb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eius in facilis dolores ex ullam optio exercitationem suscipit libero delectus dolorem, alias doloribus animi consectetur. Optio mollitia dolores tempore non.</p>
+                    </div>
+                </div> <!--vara-projekt-center slut-->
+             </div> <!--placering-img-projekt slut-->
         </div>
         <!-- 3 -->
 
         <div class="line"></div>
-        <!-- 4 -->
 
+        <!-- 4 -->
         <div class="om-oss" id="om-oss">
             <h2>Om Oss</h2>
 
-            <div class="namn1 left">
+            <div class="namn1 left" data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <img src="profilbilder/nicklas.jpg" alt="Nicklas Barklund" class="center">
- 
+
                 <div class="content">
                     <h4>Nicklas Barklund</h4>
     
@@ -147,7 +141,7 @@
 
             </div>
 
-            <div class="namn2 right">
+            <div class="namn2 right" data-aos="fade-left" data-aos-anchor-placement="top-center">
                 <img src="profilbilder/emmi.jpg" alt="Emmi Torstensson" class="center ">
              
                 <div class="content">
@@ -165,7 +159,7 @@
                 <div class="text text-left"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minima quam odio consequuntur natus velit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse corrupti numquam repellendus sit iste eligendi!</p></div>
             </div>
 
-            <div class="namn1 left">
+            <div class="namn1 left" data-aos="fade-right" data-aos-anchor-placement="top-center">
                 <img src="profilbilder/tobias.jpg" alt="Tobias Rosenlind" class="center">
               
 
@@ -184,7 +178,7 @@
                 <div class="text text-right"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit minima quam odio consequuntur natus velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe nam nihil tenetur repellendus eligendi tempora!</p></div>
             </div>
 
-            <div class="namn2 right">
+            <div class="namn2 right" data-aos="fade-left" data-aos-anchor-placement="top-center">
                 <img src="profilbilder/emma.jpg" alt="Emma Hägg" class="center">
              
                 <div class="content">
@@ -204,7 +198,6 @@
         </div>
 
         </div>
-
         <!-- 4 -->
 
         <img src="images/student.jpg" alt="Student at computer" width="100%" class="bild-1">
@@ -222,41 +215,42 @@
     </main>
     
     
-    <footer class="kontakt grid-container-kontakt" id="kontakt">
-        
+    <footer class="kontakt grid-container-kontakt" id="kontakt">  
         <div class="kontakt-box grid1">
-        <h2>Kontakt</h2>
-        <h3>info@fantastic4.com</h3>
-        <h3>+46 (0) 777 77 7777</h3>
+            <h2>Kontakt</h2>
+            <h3>info@fantastic4.com</h3>
+            <h3>+46 (0) 777 77 7777</h3>
         </div>
 
         <div class="kontakt-box grid2">
-        <h2>Adress</h2>
-        <h3>Internetvägen 1</h3>
-        <h3>112 21 Stockholm</h3>
+            <h2>Adress</h2>
+            <h3>Internetvägen 1</h3>
+            <h3>112 21 Stockholm</h3>
         </div> 
 
         <div class="kontakt-box grid3">
-        <h2>Följ Oss</h2>
-        <img src="images/instagram-logo.png" alt="instagram" class="kontaktImg">
-        <img src="images/linkedin-logo.png" alt="linkedin" class="kontaktImg">
-        <img src="images/facebook-logo.png" alt="facebook" class="kontaktImg">
+            <h2>Följ Oss</h2>
+            <img src="images/instagram-logo.png" alt="instagram" class="kontaktImg">
+            <img src="images/linkedin-logo.png"  alt="linkedin"  class="kontaktImg">
+            <img src="images/facebook-logo.png"  alt="facebook"  class="kontaktImg">
         </div>
 
         <div class="kontakt-box grid4">
-        <h2>Karriär</h2>
-        <h3>karriar@fantastic4.com</h3>
+            <h2>Karriär</h2>
+            <h3>karriar@fantastic4.com</h3>
         </div>
 
         <div class="footer-logga grid6">
-            <img src="images/fantastic-four-logo.svg" alt="">
-        </div>
-         
+            <img src="images/fantastic-four-logo.svg" alt="Fantastic Four Logo">
+        </div>       
     </footer>
 
-
-    <script src="javascript.js">
-
+    <!-- Javascript -->
+    <script src="javascript.js"></script>
+    <script type="text/javascript">
+        AOS.init({duration:1500});
     </script>
+    <script src="javascript/scroll.js"></script>
+    <script src="javascript/javascript.js"></script>
 </body>
 </html>
