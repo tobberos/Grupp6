@@ -1,104 +1,7 @@
 @media only screen and (min-width: 600px){
-
-
-.projekt{
-z-index: 1;
-position: relative;
-}
-.bg{
- 
-  z-index: -1;
-  background-image:url(../images/student.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  position: absolute;
-  opacity: .4;
-}
-  
-.projekt h2{
-  margin: 0;
-  margin-bottom: 5%;
-  margin-top: 5%;
-  font-size: 3em;
-}
-.placering-img-projekt{
-  display: flex;
-  flex-direction: row;
-}
-.placering-img-projekt img{
-  margin-bottom: 20%;
-  margin-top: -10%;
-}
-
-.webben{  /*Bild på webben*/
-  width:88%;
-  margin-left: -6%;
-  height: 95%;
-  transition: .8s ease;
-  border: solid black 1px;
-
-
-}
-.mobil{  /*Bild på mobil*/
-  margin-left: -10%;
-  transition: .8s ease;
-  border: solid black 1px;
-}
-.wrapper:hover .mobil{
-  opacity: 0;
-}
-
-.hide-webb{
-  display: none;
-}
-.hide-mobile{
-  display: block;
-}
-
-.overlay-content{
-  font-size: 5vw;
-
-}
-.overlay-content a{
-  font-size: 0.5em ;
-}
-
-
-.overlay-skeleton{
-  left: 45%;
-  bottom: 150%;
-
-}
-.overlay-meta{
-bottom: -150%;
-}
-
-
-
-.wrapper:hover img{
-  opacity: 0.3;
-}
-.wrapper:hover .overlay{
-  opacity: 1;
-}
-.overlay p{
-  font-size: 1.5vW ;
-  text-align: center;
- 
-}
-
-=======
   .projekt{
     z-index: 1;
     position: relative;
-
   }
   .bg{
     z-index: -1;
@@ -107,7 +10,7 @@ bottom: -150%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110vh;
+    height: 100vh;
     top:0;
     bottom:0;
     left:0;
@@ -152,14 +55,12 @@ bottom: -150%;
   }
   .overlay-content{
     font-size: 5vw;
-    text-align: center;
   }
   .overlay-content a{
     font-size: 0.5em ;
   }
   .overlay-skeleton{
     left: 73%;
-    right: -3%;
     padding-top: 5%;
   }
   .overlay-meta{
