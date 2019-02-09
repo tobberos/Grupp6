@@ -6,6 +6,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(25, 25, 25, 0.8) !important; 
+    background-blend-mode: soft-light; /* Makes the image darker */
   }
   .projekt h2{
     margin: 0;
