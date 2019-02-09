@@ -1,6 +1,6 @@
 .dropbtn {
     position: fixed;
-    z-index: 10;
+    z-index: 11;
     top: 20px;
     right: 8vw;
     width: 12%;
@@ -18,7 +18,7 @@
     overflow: auto;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     padding-top: 5%;
 }
 .dropdown-content a {
