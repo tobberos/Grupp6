@@ -27,3 +27,6 @@ h2{
     margin: 0 auto;
     margin-top: 30px;
 }
+#coffee-cup, .bild-1 {
+    width: 100%;
+}
