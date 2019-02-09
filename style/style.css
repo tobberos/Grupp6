@@ -1,14 +1,14 @@
 /* Import */
 
 @import url("main-style.css");
-@import url("Om-oss.css");
-@import url("våra-projekt.css");
-@import url("Om-oss-webb.css");
 @import url("home-style.css");
-@import url("header-style.css");
-@import url("tjanster.css");
-@import url("kontakt.css");
-@import url("våra-project-webb.css");
-@import url("desktop.css");
-@import url("desktoptjanster.css");
+@import url("header.css");
 @import url("header-webb.css");
+@import url("om-oss.css");
+@import url("om-oss-webb.css");
+@import url("vara-projekt.css");
+@import url("vara-projekt-webb.css");
+@import url("tjanster.css");
+@import url("tjanster-webb.css");
+@import url("kontakt.css");
+@import url("desktop.css");
