@@ -10,16 +10,14 @@ h1, h2 {
     color: #FF6C10;
     font-weight: 400;
 }
-h2{
+h2 {
     font-size: 7vw;
 }
-h3{
+h3 {
     color: #A85B2B;
 }
-.line{
+.line {
     width:22%;
     border-bottom:1px solid #FF6C10;
     margin: 40px auto 0;
-    }
-
-
+}
