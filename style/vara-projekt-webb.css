@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){
+@media (min-width: 800px){
   .projekt {
     background-image: url(../images/student.jpg);
     height: 100vh;
@@ -57,7 +57,7 @@
     bottom: -150%;
   }
   .overlay-meta{
-  bottom: -150%;
+    bottom: -150%;
   }
   .wrapper:hover img{
     opacity: 0.3;

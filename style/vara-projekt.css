@@ -1,4 +1,3 @@
-/*Våra senaste projekt*/
 h2 { 
     text-align: center;
     font-size: 10vw;
@@ -25,10 +24,9 @@ h2 {
     margin-bottom: 5%;
     transition: .8s ease;
 }
-.webben{
+.webben {
     width: 65%;
     border-radius: 3%;
-    border-style: solid 1px ;
     margin-bottom: 5%;
     transition: .8s ease;
 }
