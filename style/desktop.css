@@ -19,7 +19,7 @@
         background-image: url(../images/coffeecup.jpg);
         height: 100vh;
         background-attachment: fixed;
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
     }
